@@ -15,7 +15,7 @@ func init() {
 }
 
 func main() {
-	fmt.Println("Stating Skill Map...")
+	fmt.Println("Stating Skill Map prod...")
 
 	router := gin.Default()
 	router.Use(cors.Default())
